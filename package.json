@@ -1,0 +1,37 @@
+{
+  "name": "landing-page-webpack",
+  "version": "1.0.0",
+  "description": "webpack project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ainuragorea/landing-page.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "webpack"
+  ],
+  "author": "Ainura Gorea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ainuragorea/landing-page/issues"
+  },
+  "homepage": "https://github.com/ainuragorea/landing-page#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "sass": "^1.52.3"
+  }
+}

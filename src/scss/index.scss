@@ -1,11 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;500&display=swap');
 
-$margin: 20px;
+$mainColor: #0B387A;
 
-hr {
-margin: $margin;
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: white;
 }
-.box {
-    div {
-        background: #000;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1386px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 20px 0;
+    box-sizing: content-box;
+    nav ul {
+        list-style: none;
+        display: flex;
+        li {
+            
+            font-size: 16px;
+            font-weight: 500;
+            
+
+            a {
+                text-decoration: none;
+                color: black;
+                padding: 8px 12px;
+                border-radius: 24px;
+                &:hover {
+                    color: $mainColor;
+                    background-color: rgba(0, 0, 0, 0.1);
+                    
+                }
+
+                &.btn {
+                    border: 1px solid black;
+                    margin-left: 12px;
+                    &:hover {
+                        background-color: $mainColor;
+                        color: white;
+                    } 
+                
+                }
+            }
+        }
     }
 }
+
+.main-screen  .wrapper {
+    height: 689px;
+    background-color: $mainColor;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+
+    .block-left {
+        
+        // padding-top: 164px;
+        padding-left: 100px;
+        h1 {
+            font-size: 90px;
+            font-weight: 400;
+            line-height: 88px;
+            color: white;
+            
+        }
+        p {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 32px;
+            color: white;
+            padding-top: 40px;
+           
+        }
+        .btn-parent {
+            margin-top: 36px;
+        }
+        a.btn {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 24px;
+            color: black;
+            padding: 10px 16px;
+            background-color: white;
+            border-radius: 24px;
+            text-decoration: none;
+           
+        }
+
+    }
+   
+}
+

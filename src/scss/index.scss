@@ -156,8 +156,11 @@ header .wrapper {
 .screen-two  .wrapper {
     display: flex;
     flex-direction: column;
-    // width: 1240px;
-    // height: 815px;
+    // margin-left: 100px;
+    // margin-right: 100px;
+    width: 1240px;
+    height: 815px;
+    margin-bottom: 100px;
     h2 {
         font-weight: 500;
         font-size: 40px;
@@ -169,12 +172,14 @@ header .wrapper {
 
     .container2 {
         display: flex;
-        background: url(../img/screen-two.svg) no-repeat  top center;
+        background: url(../img/screen-two.svg) no-repeat  561px 0;
+        // margin-left: 100px;
 
         .block-left-s2 {
             padding-left: 100px;
             width: 50%;
             position: relative;
+            
             .wrapp-img {
                 border-radius: 24px;
                 position: absolute;
@@ -246,23 +251,54 @@ header .wrapper {
 }
 
 .screen-three .wrapper {
+    width: 1240px;
+    h2 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 80px;
+    }
     .gallery {
         .compositions {
             .row {
+                h3 {
+                    font-size: 28px;
+                    font-weight: 500;
+                    margin-bottom: 32px;
+                }
+                h6 {
+                    text-align: right;
+                    font-size: 20px;
+                    font-weight: 500;
+                    color:#7A7979;
+                    
+                }
                 .wrapper-columns {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    // margin-left: 100px;
+                    // margin-right: 80px;
+                    // margin: 32px 80px 60px 100px;
+                    margin-bottom: 28px;
+                    
                     .column {
                         .card {
                             height: 412px;
                             width: 360px;
-                            background-color: #FFBC2C;
+                            background-color: white;
+                            border: 1px solid #EEEEEC;
                             border-radius: 8px;
-                            sh
+                            box-shadow: 0px 4px 8px 0.4000000059604645px #E5E5E5;
+                            
+                            
                             h4 {
                                 margin-top: 22px;
                                 margin-left: 24px;
                                 font-size: 20px;
                                 font-weight: 500;
                                 line-height: 28px;
+                                
                             }
                             h5 {
                                 margin-left: 24px;

@@ -331,9 +331,11 @@ header .wrapper {
 
 .screen-four .wrapper{
     width: 1240px;
+    
     .form {
         background-color:#ECECEC;
         border-radius: 8px;
+        padding: 40px 68px 140px 68px;
         h2 {
             font-size: 40px;
             font-weight: 500;
@@ -344,10 +346,209 @@ header .wrapper {
             
         }
         .wrapper-columns {
-            
+            display: flex;
+            justify-content: space-between;
             .column {
+                width: 296px;
+                // display: flex;
                 .form-group {
+                    #size {
+                        margin-bottom: 0;
+                    }
+                    .additional-info {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 16px;
+                        margin-bottom: 40px;
+                        label {
 
+                        }
+                        .width, .height {
+                            background-color: white;
+                            border-radius: 4px;
+                            display: flex;
+                            height: 24px;
+                            align-items: center;
+                            overflow: hidden;
+                            .letter {
+                                font-size: 12px;
+                                color: #575656;
+                            }
+                            .cm {
+                                font-size: 12px;
+                                font-weight: 500;
+                                color: #575656;
+                            }
+                            input {
+                                width: 28px;
+                                height: 24px;
+                                padding: 0;
+                                border: 0 !important;
+                                font-size: 12px;
+                                font-weight: 500;
+                                text-align: center;
+                                outline: none !important;
+                                color: #575656;
+                                padding: 0 3px;
+                            }
+                        }
+                        .width {
+                            width: 95px;
+                            img {
+                                width: 16px;
+                                height: 6px;
+                                margin-left: 4px;
+                                margin-right: 4px;
+                            }
+                        }
+                        .height {
+                            width: 82px;
+                            img {
+                                height: 16px;
+                                width: 6px;
+                                margin-left: 4px;
+                                margin-right: 4px;
+                            }
+                        }
+                    }
+
+                    #subjects {
+                        margin-bottom: 0;
+                    }
+
+                    .additional-info-two {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 16px;
+                        margin-bottom: 40px;
+
+                        .person, .pet {
+                            background-color: white;
+                            border-radius: 4px;
+                            display: flex;
+                            height: 24px;
+                            align-items: center;
+                            overflow: hidden;
+                            .people {
+                                font-size: 12px;
+                                color: #575656;
+                            }
+                            .pets {
+                                font-size: 12px;
+                                // font-weight: 500;
+                                color: #575656;
+                            }
+                            input {
+                                width: 28px;
+                                height: 24px;
+                                padding: 0;
+                                border: 0 !important;
+                                font-size: 12px;
+                                font-weight: 500;
+                                text-align: center;
+                                outline: none !important;
+                                color: #575656;
+                                padding: 0;
+                            }
+                        }
+                        .person {
+                            width: 98px;
+                            img {
+                                width: 16px;
+                                height: 16px;
+                                margin-left: 8px;
+                                margin-right: 10px;
+                            }
+                        }
+                        .pet {
+                            width: 77px;
+                            img {
+                                height: 16px;
+                                width: 16px;
+                                margin-left: 8px;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                    
+                    label {
+                        display: block;
+                        font-size: 16px;
+                        font-weight: 500;
+                        margin-bottom: 16px;
+                        color: #575656;
+                    }
+                    input, select {
+                        font-family: 'Roboto Slab', serif;
+                        color: #8D8787;
+                        width: 296px;
+                        height: 40px;
+                        border-radius: 8px;
+                        border: none;
+                        background-color: #FFFFFF;
+                        font-size: 14px;
+                        font-weight: 500;
+                        padding: 0 8px;
+
+                        &:hover {
+                            border: 1.5px solid #8D8787;
+                        }
+
+                        &::placeholder {
+                            color:#8D8787;
+                        }
+                    } 
+                    select {
+                        -moz-appearance:none; /* Firefox */
+                        -webkit-appearance:none; /* Safari and Chrome */
+                        appearance:none;
+                        background: #fff url(../img/chevron-down.png) no-repeat 256px center;  
+                        padding: 0 16px;  
+                        margin-bottom: 40px;
+                    }
+                    
+                    .one {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 10px;
+
+                        
+                        .background {
+                            height: 24px;
+                            background-color: white;
+                            border-radius: 8px;
+                            text-align: center;
+                            padding:   8px 16px;
+                            font-size: 14px;
+                            font-weight: 500;
+                            color: #8D8787;
+                            line-height: 24px;
+                            &.active {
+                                border: 1.5px solid #51AF5B;
+                            }
+                        }
+                    }
+
+                    .input-radio {
+                        display: flex;
+                        justify-content: space-between;
+                        background-color: white;
+                        border-radius: 8px;
+                        padding: 8px 16px;
+                        .wrapper-options  {
+                            display: flex;
+                            font-size: 14px;
+                            font-weight: 500;
+                            color: #575656;
+                            div {
+                                color: #8D8787;
+                                
+                                
+                            }
+                            
+                        }
+
+                    }
                 }
             }
         }

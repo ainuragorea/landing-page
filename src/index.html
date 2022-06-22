@@ -257,13 +257,122 @@
                 
                 <div class="wrapper-columns">
                     <div class="column">
-                       <div class="form-group">
-                        <label for="">Type of portrait</label>
-                        <input type="text">
-                       </div>
+                        <div class="form-group">
+                            <label for="typeofportrait">Type of portrait:</label>
+                            <select id="typeofportrait"> 
+                                <option value="">Realistic</option>
+                                <option value="">Caricature</option>
+                                <option value="">Surrealistic</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="size">Size:</label>
+                            <select id="size"> 
+                                <option value="">48x62</option>
+                                <option value="">63x97</option>
+                                <option value="">60x70</option>
+                            </select>
+                            <div class="additional-info">
+                                <label for="">Custom size</label>
+                                <div class="width">
+                                    <img src="./img/W.svg" alt="">
+                                    <span class="letter">W</span>
+                                    <input type="text" name="width" id="" value="100" maxlength="4">
+                                    <span class="cm">cm</span>
+                                </div>
+                                <div class="height">
+                                    <img src="./img/H.svg" alt="">
+                                    <span class="letter">H</span>
+                                    <input type="text" name="height" id="" value="100" maxlength="4">
+                                    <span class="cm">cm</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="material">Material:</label>
+                            <select id="material"> 
+                                <option value="">Canvas</option>
+                                <option value="">Paper</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="orientation">Orientation:</label>
+                            <select id="orientation"> 
+                                <option value="">Portrait</option>
+                                <option value="">Landscape</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="medium">Medium:</label>
+                            <select id="medium"> 
+                                <option value="">Oil</option>
+                                <option value="">Watercolor</option>
+                                <option value="">Pencil</option>
+                                <option value="">Acryl</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Subjects">Subjects:</label>
+                            <select id="subjects"> 
+                                <option value="">One person</option>
+                                <option value="">Couple</option>
+                                <option value="">Family</option>
+                            </select>
+                            <div class="additional-info-two">
+                                <label for="">Custom:</label>
+                                <div class="person">
+                                    <img src="./img/people.svg" alt="">
+                                    <span class="people">Person</span>
+                                    <input type="text" name="person" id="" value="1" maxlength="2">
+                                    
+                                </div>
+                                <div class="pet">
+                                    <img src="./img/pet.svg" alt="">
+                                    <span class="pets">Pet</span>
+                                    <input type="text" name="pet" id="" value="1" maxlength="2">
+                                    
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="column">
+                        <div class="form-group">
+                            <label for="">Background:</label>
+                            <div class="one">
+                                <div class="background active">
+                                    Photo background
+                                </div>
+                                <div class="background">
+                                    Artist choise
+                                </div>
+                            </div>
+                            <div>
+                                <select name="" id="">
+                                    <option value="">Select a color</option>
+                                    <option value="">Red</option>
+                                    <option value="">Green</option>
+                                    <option value="">White</option>
+                                </select>
+                            </div>
+                           
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-radio">
+                                <label for="">Frame:</label>
+                                <div class="wrapper-options">
+                                    <div>Yes</div>
+                                    <div>No</div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
                     <div class="column">

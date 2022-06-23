@@ -339,6 +339,7 @@ header .wrapper {
 
 .screen-four .wrapper{
     width: 1240px;
+    margin-bottom: 100px;
     
     .form {
         background-color:#ECECEC;
@@ -657,9 +658,14 @@ header .wrapper {
 
                     .check {
                         // width: 352px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
                         height: 444px;
                         background-color: white;
                         border-radius: 8px;
+                        
+
 
                         .block-one {
                             margin-left: 16px;
@@ -673,6 +679,42 @@ header .wrapper {
                                 margin-bottom: 16px;
                                 margin-top: 8px;
                                 text-align: left;
+                                
+
+                            }
+                            h3 {
+                                font-size: 16px;
+                                font-weight: 500;
+                                color: #8D8787;
+                                &.total-price {
+                                    margin-top: 32px;
+                                    color: red;
+                                }
+                            }
+                            p {
+                                font-size: 14px;
+                                font-weight: 500;
+                                color: #413C3C;
+                                margin-bottom: 12px;
+                            }
+
+                            
+                        }
+
+                        .block-two {
+                            margin-top: 64px;
+                            // margin-left: 80px;
+                            margin-right: 16px;
+                            h2 {
+                                margin: 0;
+                                padding: 0;
+                                font-size: 16px;
+                                font-weight: 500;
+                                color: #413C3C;
+                                margin-bottom: 16px;
+                                margin-top: 8px;
+                                text-align: left;
+                               
                             }
                             h3 {
                                 font-size: 16px;
@@ -685,8 +727,26 @@ header .wrapper {
                                 color: #413C3C;
                                 margin-bottom: 12px;
                             }
-                            
+                            a {
+                                display: block;
+                                text-decoration: none;
+                                background-color: #51AF5B;
+                                padding: 10px 16px;
+                                border-radius: 8px;
+                                color: #fff;
+                                font-size: 14px;
+                                font-family: 'Roboto Slab';
+                                font-weight: 500;
+                                line-height: 24px;
+                                margin-top: 32px;
+                                
+                            }
+
+                          
+
                         }
+
+                        
 
 
                     }
@@ -698,5 +758,76 @@ header .wrapper {
                 }
             }
         }
+    }
+}
+
+.screen-five {
+    .wrapper {
+        width: 100%;
+        h2 {
+            font-size: 40px;
+            font-weight: 500;
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        .row {
+            .wrapper-columns {
+                .column {
+                    .review {
+                        width: 324px;
+                        height: 387px;
+                        
+                        background-color: white;
+                        border-radius: 24px;
+                        border: 1px solid #EEEEEC;
+                        &.facebook {
+                            background-image: url(../img/facebook.svg);
+                            background-repeat: no-repeat;
+                            background-position: 280px 20px;
+                        }
+                        h3 {
+                            font-size: 20px;
+                            font-weight: 700;
+                            text-align: center;
+                            line-height: 28px;
+                            color: #000000;
+                            margin-bottom: 28px;
+                        }
+                        p {
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            text-align: left;
+                            padding: 0 28px;
+                            color: #000000;
+                            margin-bottom: 38px;
+
+                            &.date {
+                                color: #8D8787;
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 20px;
+                                text-align: center;
+
+                            }
+                        }
+                        img {
+                            background-color: red;
+                            border-radius: 50%;
+                            margin-top: 24px;
+                            margin-left: 101px;
+                            margin-bottom: 10px;
+                        }
+                        a {
+                            margin-top: 20px;
+                        }
+                    
+
+
+                    }
+                }
+            }
+        }
+
     }
 }

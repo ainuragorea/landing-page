@@ -3,6 +3,17 @@ import {config} from './modules/config'
 import './modules/header.component'
 import './css/index.css'
 import './scss/index.scss'
+import Swiper from 'swiper/bundle';
+import 'swiper/css/bundle';
+const swiper = new Swiper('.swiper', {
+    loop: false,
+    scrollbar: {
+        el: '.swiper-scrollbar'
+    },
+    slidesPerView: 3.5
+
+});
+
 
 
 console.log(css.toSting())

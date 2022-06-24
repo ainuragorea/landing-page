@@ -763,7 +763,8 @@ header .wrapper {
 
 .screen-five {
     .wrapper {
-        width: 100%;
+        width: 1240px;
+        margin-bottom: 100px;
         h2 {
             font-size: 40px;
             font-weight: 500;
@@ -772,7 +773,11 @@ header .wrapper {
         }
         .row {
             .wrapper-columns {
+                margin-bottom: 40px;
+                display: flex;
+                justify-content: space-between;
                 .column {
+
                     .review {
                         width: 324px;
                         height: 387px;
@@ -784,6 +789,13 @@ header .wrapper {
                             background-image: url(../img/facebook.svg);
                             background-repeat: no-repeat;
                             background-position: 280px 20px;
+                        }
+
+                        &.linkedin {
+                            background-image: url(../img/linkedin.svg);
+                            background-repeat: no-repeat;
+                            background-position: 280px 20px;
+
                         }
                         h3 {
                             font-size: 20px;
@@ -821,13 +833,137 @@ header .wrapper {
                         a {
                             margin-top: 20px;
                         }
-                    
-
-
                     }
                 }
             }
         }
 
+    }
+}
+
+.screen-six {
+   
+    .wrapper {
+        // height: 520px;
+        background-color: $mainColor;
+        border-radius: 24px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        h2 {
+            font-size: 40px;
+            font-weight: 500;
+            color: white;
+            text-align: center;
+            padding-top: 47px;
+            
+            
+        }
+        
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 60px;
+            margin-bottom: 48px;
+            
+
+            
+            .map iframe {
+
+                border-radius: 24px;
+                
+
+            }
+
+            .contact-form {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                input {
+                    margin-bottom: 24px;
+                    width: 296px;
+                    height: 36px;
+                    border-radius: 8px;
+
+                    box-sizing: border-box;
+                    padding-left: 16px;
+                    
+                    font-size: 14px;
+                    color: #8D8787;
+                    border-style: none;
+                    font-weight: 500;
+                    font-family: 'Roboto Slab';
+                    &::placeholder {
+                        margin-left: 16px;
+                    }
+
+                }
+                a.btn  {
+                    width: 296px;
+                    // height: 36px;
+                    text-decoration: none;
+                    border-radius: 8px;
+                    background-color: #FFBC2C;
+                    text-align: center;
+                    display: block;
+                    padding-top: 8px;
+                    padding-bottom: 8px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    font-family: 'Roboto Slab';
+                    color: white;
+                   
+                       
+                    
+
+
+                }
+                textarea {
+                    box-sizing: border-box;
+                    height: 68px;
+                    border-radius: 8px;
+                    font-size: 14px;
+                    color: #8D8787;
+                    border-style: none;
+                    font-weight: 500;
+                    font-family: 'Roboto Slab';
+                    width: 296px;
+                    margin-bottom: 24px;
+                    &::placeholder {
+                        padding-left: 16px;
+                        padding-top: 8px;
+                    }
+                }
+
+
+            }
+
+            .social-media {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                color: white;
+                .info-contact {
+                    display: flex;
+                    margin-bottom: 24px;
+                    img {
+                        margin-right: 12px;
+                    }
+                }
+                h3 {
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-family: 'Roboto Slab';
+                }
+            }
+
+            .social-media-two {
+                img {
+                    margin-right: 24px;
+
+                }
+                
+            }
+        }
     }
 }

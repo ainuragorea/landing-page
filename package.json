@@ -35,6 +35,7 @@
   },
   "dependencies": {
     "sass": "^1.52.3",
+    "swiper": "^8.2.4",
     "webpack-dev-server": "^4.9.2"
   }
 }

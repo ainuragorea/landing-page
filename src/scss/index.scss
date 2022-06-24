@@ -520,12 +520,9 @@ header .wrapper {
                     }
                     
                     .one {
-
                         display: flex;
                         justify-content: space-between;
                         margin-bottom: 10px;
-
-                        
                         .background {
                             height: 24px;
                             background-color: white;
@@ -972,7 +969,6 @@ footer .wrapper {
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
-
     select {
         border: none !important;
         font-size: 16px;
@@ -984,8 +980,6 @@ footer .wrapper {
         background-position: right center;
         padding-right: 24px;
         font-family: 'Roboto Slab';
-    
-
     }
     nav ul {
         display: flex;        

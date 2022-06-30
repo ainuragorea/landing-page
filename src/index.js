@@ -10,7 +10,17 @@ const swiper = new Swiper('.swiper', {
     scrollbar: {
         el: '.swiper-scrollbar'
     },
-    slidesPerView: 3.5
+    slidesPerView: 3.5,
+    breakpoints: {
+        969: {
+            slidesPerView: 3
+        },
+        600: {
+            slidesPerView: 2.5,
+        }
+    }
+
+
 
 });
 

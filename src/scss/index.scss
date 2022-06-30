@@ -995,3 +995,223 @@ footer .wrapper {
         }
     }
 }
+
+@media screen and (max-width: 1376px) {
+    .wrapper,
+    .screen-two .wrapper,
+    .screen-three .wrapper,
+    .screen-four .wrapper,
+    .screen-five .wrapper,
+    .screen-six .wrapper {
+        width: 100%;
+    }
+    .main-screen .wrapper .block-left p {
+        font-size: 18px;
+        padding-top: 24px;
+    }
+    .main-screen .wrapper .block-left {
+        padding-left: 5%;
+    }
+    .main-screen .wrapper .block-left h1 {
+        font-size: 64px;
+        line-height: 70px;
+    }
+    .main-screen .wrapper .block-left .decoration {
+        display: none;
+    }
+    .main-screen .wrapper .block-right {
+        padding-right: 5%;
+    }
+    .main-screen .wrapper .block-right .card {
+        width: 340px;
+        height: 390px;
+        img {
+            width: 100%;
+        }
+    }
+    .main-screen .wrapper {
+        height: 540px;
+        margin-bottom: 20px;
+        border-radius: 0;
+    }
+    header .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+        height: 70px;
+    }
+    .screen-two .wrapper {
+        max-width: 1240px;
+        margin-bottom: 20px;
+        height: 100%;
+        h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+      .container2 {
+        padding: 0 40px;
+        background: none;
+      }
+    }
+    .screen-two .wrapper .container2 .block-left-s2 {
+        width: 40%;
+
+    }
+    .screen-two .wrapper .container2 .block-left-s2 .wrapp-img {
+        width: 200px;
+        height: 200px;
+        img {
+            width: 100%;
+        }
+        .play {
+            height: 40px;
+            width: 130px;
+            span {
+                font-size: 14px;
+            }
+            img {
+                height: 30px;
+                width: 30px;
+            }
+        }
+    }
+    .screen-two .wrapper .container2 .block-left-s2 .wrapp-img:nth-child(2) {
+        top: 160px;
+        left: 160px;      
+     }
+     .screen-two .wrapper .container2 .block-left-s2 .wrapp-img:nth-child(3) {
+        top: 318px;
+     }
+     .column:last-child {
+        width: 242px !important;
+     }
+     .screen-two .wrapper .container2 .block-right-s2 {
+        width: 60%;
+        div {
+            margin-bottom: 20px;
+            margin-top: -10px;
+            width: 100%;
+        }
+        h3 {
+            font-size: 16px;
+            line-height: 24px;
+        }
+         div ul.list {
+            font-size: 14px;
+            line-height: 24px;
+            margin-top: 10px;
+        }
+     }
+     .screen-two .wrapper .container2 .block-right-s2 div:nth-child(2) {
+        margin-bottom: 20px;
+     }
+     .screen-three .wrapper {      
+        h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            .compositions {
+                padding: 0 48px;
+                .row {                  
+                    h3 {
+                        font-size: 24px;
+                        margin-bottom: 24px;   
+                    }
+                    h6 {
+                        font-size: 16px;                       
+                    }                  
+                    .wrapper-columns {                      
+                        margin-bottom: 20px;                     
+                        .column {
+                            .card {
+                                margin-right: 20px;
+                                height: 300px;
+                                width: 240px;
+                                img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                                h4 {
+                                    font-size: 18px;
+                                    margin-top: 10px ;
+                                    margin-left: 24px;
+                                }
+                                p {
+                                    font-size: 14px;
+                                }
+                                h5 {
+                                    font-size: 18px;
+                                    margin-top: 0px;
+                                }
+                            }
+                        }
+                    }
+                }  
+            }
+        }            
+     }
+     .screen-four .wrapper .form .wrapper-columns .column .form-group .photo {
+        display: none;
+     }
+     .screen-four .wrapper .form h2 {
+        font-size: 30px;
+        padding-top: 40px;
+     }
+     .screen-four .wrapper .form .wrapper-columns .column {
+        width: 40%;
+        padding: 0 5%;
+        &:last-child {
+            width: 50% !important;          
+        }
+     }
+     .screen-four .wrapper .form .wrapper-columns {
+        flex-wrap: wrap;     
+     }
+     .screen-four .wrapper .form .wrapper-columns .column .form-group input, .screen-four .wrapper .form .wrapper-columns .column .form-group select {
+        width: 100%;
+        background-position-x: 98%;
+     }
+     .screen-four .wrapper .form .wrapper-columns {
+        justify-content: center;
+     }
+     .screen-four .wrapper .form {
+        padding: 40px 0 40px 0;
+        h2 {
+            padding-top: 0;
+        }
+     }
+     .screen-six .wrapper {
+        border-radius: 0;
+        h2 {
+            font-size: 30px;
+        }
+     }
+     .screen-five .wrapper  {
+        h2 {
+            font-size: 30px;          
+        }
+     }
+     .screen-five .wrapper .row .wrapper-columns .column .review {
+        width: 300px;
+        height: 347px;
+        h3 {
+            margin-bottom: 12px;
+        }
+        p {
+            margin-bottom: 16px;
+            text-align: center;
+            padding: 0 20px;
+        }      
+     }
+     .screen-five .wrapper .row .wrapper-columns .column .review.facebook {
+        background-position: 260px 20px;
+     }
+     .screen-five .wrapper .row .wrapper-columns .column .review.linkedin {
+        background-position: 260px 20px;
+     }    
+}
+
+@media screen and (max-width: 969px) {
+    
+}

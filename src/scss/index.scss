@@ -13,6 +13,9 @@ body {
     margin: 0;
     padding: 0;
 }
+.map-mobile {
+    display: none;
+}
 
 .wrapper {
     width: 1386px;
@@ -169,6 +172,8 @@ header .wrapper {
     width: 1240px;
     height: 815px;
     margin-bottom: 100px;
+    // margin-left: 75px;
+    // margin-right: 75px;
     h2 {
         font-weight: 500;
         font-size: 40px;
@@ -845,7 +850,7 @@ header .wrapper {
         background-color: $mainColor;
         border-radius: 24px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-direction: column;
         h2 {
             font-size: 40px;
@@ -862,6 +867,8 @@ header .wrapper {
             justify-content: space-around;
             margin-top: 60px;
             margin-bottom: 48px;
+            // margin-left: 75px;
+            // margin-right: 75px;
             
 
             
@@ -1005,6 +1012,13 @@ footer .wrapper {
     .screen-six .wrapper {
         width: 100%;
     }
+    .screen-three .wrapper {
+        margin-bottom: 20px;
+    }
+    .screen-four .wrapper {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
     .main-screen .wrapper .block-left p {
         font-size: 18px;
         padding-top: 24px;
@@ -1116,7 +1130,7 @@ footer .wrapper {
                 .row {                  
                     h3 {
                         font-size: 24px;
-                        margin-bottom: 24px;   
+                        margin-bottom: 20px;   
                     }
                     h6 {
                         font-size: 16px;                       
@@ -1185,11 +1199,17 @@ footer .wrapper {
         border-radius: 0;
         h2 {
             font-size: 30px;
+            padding-top: 20px;
         }
      }
+     .screen-six .wrapper .container {
+        margin-top: 20px;
+     }
      .screen-five .wrapper  {
+        margin-bottom: 40px;
         h2 {
-            font-size: 30px;          
+            font-size: 30px;   
+            margin-bottom: 20px;       
         }
      }
      .screen-five .wrapper .row .wrapper-columns .column .review {
@@ -1210,8 +1230,252 @@ footer .wrapper {
      .screen-five .wrapper .row .wrapper-columns .column .review.linkedin {
         background-position: 260px 20px;
      }    
+
+     .screen-six .wrapper .container .map  iframe{
+        height: 300px !important;
+        width: 268px !important;
+     }
+     .screen-six .wrapper .container .contact-form {
+        input {
+        width: 264px;
+        }
+        textarea {
+            width: 264px;
+        }
+        a.btn {
+            width: 264px;
+        }
+    }
+    .screen-six .wrapper .container .social-media .info-contact  {
+        margin-bottom: 20px;
+       img {
+        width: 44px;
+        height: 44px;
+       }
+        
+    }
+    .screen-six .wrapper .container .social-media {
+        h3 {
+            font-size: 14px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
 }
 
-@media screen and (max-width: 969px) {
+@media screen and (max-width: 890px) {
+    .screen-two .wrapper .container2 .block-left-s2 .wrapp-img:nth-child(2) {
+        top: 173px;
+        left: 100px;
+    }
+    .screen-two .wrapper .container2 .block-left-s2 .wrapp-img:nth-child(3) {
+        top: 346px;
+    }
+    .screen-two .wrapper .container2 .block-left-s2 {
+        width: 35%;
+    }
+    .screen-two .wrapper .container2 .block-right-s2 {
+        width: 65%;
+    }
+    screen-six .wrapper .container .map  iframe{
+        height: 320px !important;
+        width: 268px !important;
+     }
+     .screen-three .wrapper .gallery .compositions .row .wrapper-columns .column .card {
+        height: 290px;
+        width: 230px;
+    }
+    .screen-three .wrapper .gallery .compositions .row .wrapper-columns .column .card h4 {
+        font-size: 16px;
+    }
+    .screen-three .wrapper .gallery .compositions .row .wrapper-columns .column .card h5 {
+        font-size: 16px;
+    }
+    .screen-three .wrapper .gallery .compositions .row .wrapper-columns .column .card p {
+        font-size: 13.5px;
+    }
     
+   
+
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .main-screen .wrapper .block-left {
+        h1 {
+        font-size: 56px;
+        }
+        p {
+            font-size: 16px;
+        }
+        a.btn {
+            font-size: 16px;
+        }
+       
+        
+    }
+    .main-screen .wrapper .block-right .card a {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .main-screen .wrapper .block-right .card {
+        width: 320px;
+        height: 360px;
+    }
+    .screen-two .wrapper .container2 .block-left-s2 {
+        width: 35%;
+    }
+    .screen-two .wrapper .container2 .block-right-s2 {
+        width: 65%;
+    }
+    .screen-two .wrapper .container2 .block-left-s2 .wrapp-img {
+        width: 180px;
+        height: 180px;
+        img {
+            width: 100%;
+        }
+        .play {
+            height: 35px;
+            width: 125px;
+            span {
+                font-size: 14px;
+            }
+            img {
+                height: 30px;
+                width: 30px;
+            }
+        }
+    }
+    .screen-two .wrapper .container2 .block-left-s2 .wrapp-img:nth-child(2) {
+        top: 160px;
+        left: 120px;
+    }
+    .screen-two .wrapper .container2 .block-left-s2 .wrapp-img:nth-child(3) {
+        top: 320px;
+    }
+    .screen-six .wrapper .container .map  iframe{
+        height: 300px !important;
+        width: 248px !important;
+     }
+
+   
+
+     .screen-six .wrapper .container .contact-form {
+        input {
+        width: 248px;
+        }
+        textarea {
+            width: 248px;
+        }
+        a.btn {
+            width: 248px;
+        }
+    }
+    .screen-six .wrapper .container .social-media .info-contact  {
+        margin-bottom: 20px;
+       img {
+        width: 40px;
+        height: 40px;
+       }
+        
+    }
+    .screen-six .wrapper .container .social-media {
+        h3 {
+            font-size: 14px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .screen-two .wrapper .container2 .block-right-s2 div ul.list {
+        line-height: 22px;
+        margin-bottom: 6px;
+    }
+    .screen-three .wrapper .gallery .compositions .row .wrapper-columns .column .card {
+        margin-right: 0;
+    }
+   
+    .screen-three .wrapper .gallery .compositions .row .wrapper-columns .column:last-child{
+        display: none;
+    }
+    .screen-three .wrapper .gallery .compositions .row .wrapper-columns{
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 800px) {
+    .main-screen .wrapper .block-left h1{
+        font-size: 52px;
+    }
+    .main-screen .wrapper .block-left p{
+        font-size: 15px;
+    }
+    .screen-three .wrapper .gallery .compositions {
+        padding: 0 18px;
+    }
+    .screen-two .wrapper .container2 .block-left-s2 .wrapp-img:nth-child(2) {
+        top: 200px;
+        left: 100px;
+    }
+    .screen-two .wrapper .container2 .block-left-s2 .wrapp-img:nth-child(3) {
+        top: 400px;
+    }
+    .screen-five .wrapper .row .wrapper-columns .column .review.facebook {
+        background-position: 240px 20px;
+    }
+    .screen-five .wrapper .row .wrapper-columns .column .review {
+        width: 280px;
+    }
+    .screen-five .wrapper .row .wrapper-columns .column .review.linkedin {
+        background-position: 240px 20px;
+    }
+    .map-mobile {
+        display: block;
+        
+       iframe {
+        width: 90% !important;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 8px;
+        margin-bottom: 30px;
+       
+        
+       }
+    }
+    .screen-six .wrapper .container .map {
+        display: none;
+       
+    }
+    .screen-six .wrapper .container {
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
+    .screen-six .wrapper .container .contact-form input {
+        width: 296px;
+    }
+    .screen-six .wrapper .container .contact-form textarea {
+        width: 296px;
+    }
+    .screen-six .wrapper .container .contact-form a.btn {
+        width: 296px;
+    }
+    .screen-six .wrapper .container .social-media .info-contact img {
+        width: 46px;
+        height: 46px;
+    }
+    .screen-six .wrapper .container .social-media h3{
+        font-size: 15px;
+    }
+    .screen-six .wrapper .container .social-media p{
+        font-size: 15px;
+    }
+    .screen-six .wrapper .container .social-media .info-contact img {
+        margin-right: 20px;
+    }
+
 }

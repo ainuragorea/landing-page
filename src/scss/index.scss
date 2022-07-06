@@ -1003,7 +1003,11 @@ footer .wrapper {
     }
 }
 
-@media screen and (max-width: 1376px) {
+@media screen and (max-width: 1357px) {
+
+}
+
+@media screen and (max-width: 1357px) {
     .wrapper,
     .screen-two .wrapper,
     .screen-three .wrapper,
@@ -1119,7 +1123,118 @@ footer .wrapper {
      .screen-two .wrapper .container2 .block-right-s2 div:nth-child(2) {
         margin-bottom: 20px;
      }
-     .screen-three .wrapper {      
+     .screen-four .wrapper .form .wrapper-columns .column .form-group .photo {
+        display: none;
+     }
+     .screen-four .wrapper .form h2 {
+        font-size: 30px;
+        padding-top: 40px;
+     }
+     .screen-four .wrapper .form .wrapper-columns .column {
+        width: 40%;
+        padding: 0 5%;
+        &:last-child {
+            width: 50% !important;          
+        }
+     }
+     .screen-four .wrapper .form .wrapper-columns {
+        flex-wrap: wrap;     
+     }
+     .screen-four .wrapper .form .wrapper-columns .column .form-group input, .screen-four .wrapper .form .wrapper-columns .column .form-group select {
+        width: 100%;
+        background-position-x: 98%;
+     }
+     .screen-four .wrapper .form .wrapper-columns {
+        justify-content: center;
+     }
+     .screen-four .wrapper .form {
+        padding: 40px 0 40px 0;
+        h2 {
+            padding-top: 0;
+        }
+     }
+    
+     .screen-six .wrapper {
+        border-radius: 0;
+        h2 {
+            font-size: 30px;
+            padding-top: 20px;
+        }
+     }
+     .screen-six .wrapper .container {
+        margin-top: 20px;
+     }
+     .screen-five .wrapper  {
+        margin-bottom: 40px;
+        h2 {
+            font-size: 30px;   
+            margin-bottom: 20px;       
+        }
+     }
+     .screen-five .wrapper .row .wrapper-columns .column .review {
+        width: 300px;
+        height: 347px;
+        h3 {
+            margin-bottom: 12px;
+        }
+        p {
+            margin-bottom: 16px;
+            text-align: center;
+            padding: 0 20px;
+        }      
+     }
+     .screen-five .wrapper .row .wrapper-columns .column .review img {
+        margin-left: 82px;
+     }
+     .screen-five .wrapper .row .wrapper-columns .column .review.facebook {
+        background-position: 260px 20px;
+     }
+     .screen-five .wrapper .row .wrapper-columns .column .review.linkedin {
+        background-position: 260px 20px;
+     }    
+
+     .screen-six .wrapper .container .map  iframe{
+        height: 300px !important;
+        width: 268px !important;
+     }
+     .screen-six .wrapper .container .contact-form {
+        input {
+        width: 264px;
+        }
+        textarea {
+            width: 264px;
+        }
+        a.btn {
+            width: 264px;
+        }
+    }
+    .screen-six .wrapper .container .social-media .info-contact  {
+        margin-bottom: 20px;
+       img {
+        width: 44px;
+        height: 44px;
+       }
+        
+    }
+    .screen-six .wrapper .container .social-media {
+        h3 {
+            font-size: 14px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+
+
+
+    
+
+
+}
+
+@media screen and (max-width: 969px) {
+
+    .screen-three .wrapper {      
         h2 {
             font-size: 30px;
             margin-bottom: 20px;
@@ -1165,106 +1280,9 @@ footer .wrapper {
             }
         }            
      }
-     .screen-four .wrapper .form .wrapper-columns .column .form-group .photo {
-        display: none;
-     }
-     .screen-four .wrapper .form h2 {
-        font-size: 30px;
-        padding-top: 40px;
-     }
-     .screen-four .wrapper .form .wrapper-columns .column {
-        width: 40%;
-        padding: 0 5%;
-        &:last-child {
-            width: 50% !important;          
-        }
-     }
-     .screen-four .wrapper .form .wrapper-columns {
-        flex-wrap: wrap;     
-     }
-     .screen-four .wrapper .form .wrapper-columns .column .form-group input, .screen-four .wrapper .form .wrapper-columns .column .form-group select {
-        width: 100%;
-        background-position-x: 98%;
-     }
-     .screen-four .wrapper .form .wrapper-columns {
-        justify-content: center;
-     }
-     .screen-four .wrapper .form {
-        padding: 40px 0 40px 0;
-        h2 {
-            padding-top: 0;
-        }
-     }
-     .screen-six .wrapper {
-        border-radius: 0;
-        h2 {
-            font-size: 30px;
-            padding-top: 20px;
-        }
-     }
-     .screen-six .wrapper .container {
-        margin-top: 20px;
-     }
-     .screen-five .wrapper  {
-        margin-bottom: 40px;
-        h2 {
-            font-size: 30px;   
-            margin-bottom: 20px;       
-        }
-     }
-     .screen-five .wrapper .row .wrapper-columns .column .review {
-        width: 300px;
-        height: 347px;
-        h3 {
-            margin-bottom: 12px;
-        }
-        p {
-            margin-bottom: 16px;
-            text-align: center;
-            padding: 0 20px;
-        }      
-     }
-     .screen-five .wrapper .row .wrapper-columns .column .review.facebook {
-        background-position: 260px 20px;
-     }
-     .screen-five .wrapper .row .wrapper-columns .column .review.linkedin {
-        background-position: 260px 20px;
-     }    
-
-     .screen-six .wrapper .container .map  iframe{
-        height: 300px !important;
-        width: 268px !important;
-     }
-     .screen-six .wrapper .container .contact-form {
-        input {
-        width: 264px;
-        }
-        textarea {
-            width: 264px;
-        }
-        a.btn {
-            width: 264px;
-        }
+    .main-screen .wrapper {
+        height: 480px;
     }
-    .screen-six .wrapper .container .social-media .info-contact  {
-        margin-bottom: 20px;
-       img {
-        width: 44px;
-        height: 44px;
-       }
-        
-    }
-    .screen-six .wrapper .container .social-media {
-        h3 {
-            font-size: 14px;
-        }
-        p {
-            font-size: 14px;
-        }
-    }
-}
-
-@media screen and (max-width: 890px) {
     .screen-two .wrapper .container2 .block-left-s2 .wrapp-img:nth-child(2) {
         top: 173px;
         left: 100px;
@@ -1278,7 +1296,7 @@ footer .wrapper {
     .screen-two .wrapper .container2 .block-right-s2 {
         width: 65%;
     }
-    screen-six .wrapper .container .map  iframe{
+    .screen-six .wrapper .container .map  iframe{
         height: 320px !important;
         width: 268px !important;
      }
@@ -1295,6 +1313,7 @@ footer .wrapper {
     .screen-three .wrapper .gallery .compositions .row .wrapper-columns .column .card p {
         font-size: 13.5px;
     }
+   
     
    
 
@@ -1303,6 +1322,7 @@ footer .wrapper {
 
 
 @media screen and (max-width: 850px) {
+   
     .main-screen .wrapper .block-left {
         h1 {
         font-size: 56px;
@@ -1314,7 +1334,6 @@ footer .wrapper {
             font-size: 16px;
         }
        
-        
     }
     .main-screen .wrapper .block-right .card a {
         font-size: 18px;
@@ -1355,22 +1374,20 @@ footer .wrapper {
     .screen-two .wrapper .container2 .block-left-s2 .wrapp-img:nth-child(3) {
         top: 320px;
     }
+  
     .screen-six .wrapper .container .map  iframe{
         height: 300px !important;
-        width: 248px !important;
+        width: 240px !important;
      }
-
-   
-
      .screen-six .wrapper .container .contact-form {
         input {
-        width: 248px;
+        width: 240px;
         }
         textarea {
-            width: 248px;
+            width: 240px;
         }
         a.btn {
-            width: 248px;
+            width: 240px;
         }
     }
     .screen-six .wrapper .container .social-media .info-contact  {
@@ -1455,6 +1472,7 @@ footer .wrapper {
         margin-right: 5%;
         
     }
+   
     .screen-six .wrapper .container .contact-form input {
         width: 296px;
     }
@@ -1478,4 +1496,54 @@ footer .wrapper {
         margin-right: 20px;
     }
 
+}
+
+@media screen and (max-width: 750px) {
+    .main-screen .wrapper {
+        height: 400px;
+    }
+    .main-screen .wrapper .block-right .card {
+        width: 280px;
+        height: 320px;
+    }
+    .main-screen .wrapper .block-left p {
+        line-height: 24px;
+    }
+    .main-screen .wrapper .block-left h1 {
+        line-height: 56px;
+        font-size: 48px;
+    }
+    .screen-two .wrapper .container2 .block-left-s2 .wrapp-img {
+        width: 220px;
+        height: 220px;
+    }
+    .screen-two .wrapper .container2 .block-left-s2 .wrapp-img:nth-child(2) {
+        top: 225px;
+        left: 0;
+    }
+    .screen-two .wrapper .container2 .block-left-s2 .wrapp-img:nth-child(3) {
+        top: 450px;
+    }
+    .screen-five .wrapper .row .wrapper-columns .column .review {
+        width: 280px;
+        
+        h3 {
+            margin-bottom: 12px;
+        }
+        p {
+            margin-bottom: 16px;
+            text-align: center;
+            padding: 0 20px;
+        }      
+     }
+     .screen-five .wrapper .row .wrapper-columns .column .review img {
+        margin-left: 82px;
+        background-color: white;
+     }
+     .screen-five .wrapper .row .wrapper-columns .column .review.facebook {
+        background-position: 240px 20px;
+     }
+     .screen-five .wrapper .row .wrapper-columns .column .review.linkedin {
+        background-position: 240px 20px;
+     }    
 }

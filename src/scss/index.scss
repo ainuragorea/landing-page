@@ -425,6 +425,61 @@ header .wrapper {
                             }
                         }
                     }
+                    .additional-info {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 16px;
+                        margin-bottom: 40px;
+                        .width, .height {
+                            background-color: white;
+                            border-radius: 4px;
+                            display: flex;
+                            height: 24px;
+                            align-items: center;
+                            overflow: hidden;
+                            .letter {
+                                line-height: 15.83px;
+                                font-size: 12px;
+                                color: #575656;
+                            }
+                            .cm {
+                                font-size: 12px;
+                                line-height: 15.83px;
+                                font-weight: 500;
+                                color: #575656;
+                            }
+                            input {
+                                width: 28px;
+                                height: 24px;
+                                padding: 0;
+                                border: 0 !important;
+                                font-size: 12px;
+                                font-weight: 500;
+                                text-align: center;
+                                outline: none !important;
+                                color: #575656;
+                                padding: 0 3px;
+                            }
+                        }
+                        .width {
+                            width: 95px;
+                            img {
+                                width: 16px;
+                                height: 6px;
+                                margin-left: 4px;
+                                margin-right: 4px;
+                            }
+                        }
+                        .height {
+                            width: 82px;
+                            img {
+                                height: 16px;
+                                width: 6px;
+                                margin-left: 4px;
+                                margin-right: 4px;
+                            }
+                        }
+                    }
 
                     #subjects {
                         margin-bottom: 0;
@@ -1005,14 +1060,32 @@ footer .wrapper {
 
 
 // TODO: uncomment this
-.screen-three {
-    display: none !important;
-}
-@media screen and (max-width: 1386px) {
+// .screen-three {
+//     display: none !important;
+// }
+// @media screen and (max-width: 1386px) {
 
-}
+// }
 
 @media screen and (max-width: 1357px) {
+    
+    .screen-three .column:last-child {
+        width: auto !important;
+    }
+    .screen-three .wrapper .gallery .compositions .row .wrapper-columns .column .card {
+        width: 290px;
+        height: 370px;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .screen-three .wrapper .gallery .compositions {
+        padding: 0 5%;
+    }
+
+
+    
     .wrapper,
     .screen-two .wrapper,
     .screen-three .wrapper,
@@ -1373,6 +1446,7 @@ footer .wrapper {
 
 
 @media screen and (max-width: 850px) {
+
    
     .main-screen .wrapper .block-left {
         h1 {
@@ -1463,15 +1537,20 @@ footer .wrapper {
     }
     .screen-three .wrapper .gallery .compositions .row .wrapper-columns .column .card {
         margin-right: 0;
+        width: 100%;
+        height: auto;
     }
    
-    .screen-three .wrapper .gallery .compositions .row .wrapper-columns .column:last-child{
+    .screen-three .wrapper .gallery .compositions .row .wrapper-columns .column:last-child {
         display: none;
     }
     .screen-three .wrapper .gallery .compositions .row .wrapper-columns{
         align-items: center;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        .column {
+            width: 44%;
+        }
     }
 }
 @media screen and (max-width: 800px) {
@@ -1596,5 +1675,132 @@ footer .wrapper {
      }
      .screen-five .wrapper .row .wrapper-columns .column .review.linkedin {
         background-position: 240px 20px;
-     }    
+     }
+     .screen-four .wrapper .form .wrapper-columns .column .form-group input, .screen-four .wrapper .form .wrapper-columns .column .form-group select {
+        font-size: 13px;
+        padding: 0 14px;
+     } 
+     .screen-four .wrapper .form .wrapper-columns .column .form-group label {
+        font-size: 15px;
+     }   
+     .screen-four .wrapper .form .wrapper-columns .column .form-group .one .background {
+        font-size: 13px;
+        padding: 8px 14px;
+     }
+     .screen-four .wrapper .form .wrapper-columns .column .form-group .input-file span {
+        font-size: 15px;
+     }
+     .screen-four .wrapper .form .wrapper-columns .column .form-group .additional-info .width .letter, .screen-four .wrapper .form .wrapper-columns .column .form-group .additional-info .height .letter {
+        display: none;
+     }
+     .screen-four .wrapper .form .wrapper-columns .column .form-group .additional-info .width {
+        img {
+            width: 20px;
+            height: 20px;
+            margin-left: 10px;
+        }
+        .letter {
+            display: unset;
+            font-size: 13px;
+        }
+        width: 45%;
+        height: 40px;
+        border-radius: 8px;
+        .cm {
+            font-size: 13px;
+        }
+        .input {
+            font-size: 13px;
+        }
+     }
+     .screen-four .wrapper .form .wrapper-columns .column .form-group .additional-info .height {
+        border-radius: 8px;
+        img {
+            width: 20px;
+            height: 20px;
+            margin-left: 10px;
+        }
+        width: 45%;
+        height: 40px;
+        .letter {
+            display: unset;
+            font-size: 13px;
+        }
+        .cm {
+            font-size: 13px;
+        }
+        .input {
+            font-size: 13px;
+        }
+     }
+     .screen-four .wrapper .form .wrapper-columns .column .form-group label {
+        width: 100%;
+     }
+     .screen-four .wrapper .form .wrapper-columns .column .form-group .additional-info {
+        
+        flex-wrap: wrap;
+     }
+     .screen-four .wrapper .form .wrapper-columns .column .form-group .additional-info-two {
+        flex-wrap: wrap;
+     }
+     .screen-four .wrapper .form .wrapper-columns .column .form-group label {
+        width: 100%;
+     }
+     .screen-four .wrapper .form .wrapper-columns .column .form-group .additional-info-two .person {
+        width: 45%;
+        height: 40px;
+        border-radius: 8px;
+        .people {
+            font-size: 13px;
+        }
+        input {
+            font-size: 13px;
+        }
+        img {
+            height: 20px;
+            width: 20px;
+            margin-left: 10px;
+        }
+     }
+     .screen-four .wrapper .form .wrapper-columns .column .form-group .additional-info-two .pet {
+        width: 45%;
+        height: 40px;
+        border-radius: 8px;
+        .pets {
+            font-size: 13px;
+        }
+        input {
+            font-size: 13px;
+        }
+        img {
+            height: 20px;
+            width: 20px;
+            margin-left: 10px;
+        }
+     }
+     .screen-four .wrapper .form .wrapper-columns .column .form-group select {
+        margin-bottom: 24px;
+     }
+     .screen-four .wrapper .form .wrapper-columns .column .form-group .input-radio {
+        margin-bottom: 24px;
+     }
+     .screen-four .wrapper .form .wrapper-columns .column .form-group label {
+        margin-bottom: 11px;
+     }
+   
+}
+@media screen and (max-width: 650px) {
+    .screen-four .wrapper .form .wrapper-columns .column .form-group .one .background.active {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .screen-four .wrapper .form .wrapper-columns .column .form-group .one .background {
+        width: 100%;
+    }
+    .screen-four .wrapper .form .wrapper-columns .column .form-group .one {
+        flex-wrap: wrap;
+    }
+    .screen-four .wrapper .form .wrapper-columns .column .form-group .input-form-two input {
+        margin-bottom: 10px;
+    }
 }

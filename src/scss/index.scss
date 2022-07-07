@@ -1539,6 +1539,7 @@ footer .wrapper {
         margin-right: 0;
         width: 100%;
         height: auto;
+        padding-bottom: 8px;
     }
    
     .screen-three .wrapper .gallery .compositions .row .wrapper-columns .column:last-child {
@@ -1803,4 +1804,29 @@ footer .wrapper {
     .screen-four .wrapper .form .wrapper-columns .column .form-group .input-form-two input {
         margin-bottom: 10px;
     }
+    .main-screen .wrapper .block-right .card {
+        height: 300px;
+        width: 270px;
+        a {
+            line-height: 10px;
+        }
+        
+    }
+    .main-screen .wrapper .block-left {
+        h1 {
+            font-size: 44px;
+            line-height: 52px;
+        }
+        p {
+            font-size: 13px;
+           
+        }
+    }
+    // .screen-two .wrapper .container2 .block-right-s2 div ul.list li:last-child  {
+    //     display: none;
+    // }
+    // .screen-two .wrapper .container2 .block-right-s2 div ul.list:nth-child(2) {
+    //     display: unset;
+    // }
+
 }
